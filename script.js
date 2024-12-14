@@ -50,3 +50,4 @@ function clickDecimal() {
         currentNumber += '.';
         display.value = currentNumber;
     }
+}

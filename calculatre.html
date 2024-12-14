@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html >
+<html lang="en">
 <head>
-    <title>calculatre</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="calculator">
-        <input type="text" id="display" disabled>
+        <input type="text" id="display" readonly>
         <div class="keys">
             <button class="key" onclick="clickNumber(7)">7</button>
             <button class="key" onclick="clickNumber(8)">8</button>
@@ -15,7 +17,7 @@
             <button class="key" onclick="clickNumber(4)">4</button>
             <button class="key" onclick="clickNumber(5)">5</button>
             <button class="key" onclick="clickNumber(6)">6</button>
-            <button class="key operator" onclick="clickOperator('*')">x</button>
+            <button class="key operator" onclick="clickOperator('*')">*</button>
             <button class="key" onclick="clickNumber(1)">1</button>
             <button class="key" onclick="clickNumber(2)">2</button>
             <button class="key" onclick="clickNumber(3)">3</button>
@@ -29,6 +31,7 @@
     </div>
 
     <script src="script.js"></script>
-
 </body>
 </html>
+
+
