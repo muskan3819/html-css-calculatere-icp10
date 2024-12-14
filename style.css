@@ -1,22 +1,27 @@
 .calculator {
-    width: 290px;
+    width: 300px;
     margin: 50px auto;
     padding: 20px;
     background-color: #f0f0f0;
-    border: 1px solid #ccc;
+    border: 1px solid #f12fa0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-direction: row;
+    align-items: center;
 }
 
 #display {
-    width: 100%;
+    width: 90%;
     height: 40px;
     margin-bottom: 20px;
     padding: 10px;
     font-size: 24px;
     font-weight: bold;
     text-align: right;
-    border: none;
-    background-color: #fff;
+    border: 2px solid #f33ace;
+    background-color: #b2d4ed;
+    flex-direction: row;
+    align-items: center;
+    
 }
 
 .keys {
@@ -32,12 +37,12 @@
     font-size: 24px;
     font-weight: bold;
     cursor: pointer;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: #f58edd;
+    border: 1px solid #f33ace;
 }
 
 .operator {
-    background-color: #ccc;
+    background-color: #14b7f7;
 }
 
 .equals {
@@ -48,7 +53,8 @@
     font-size: 24px;
     font-weight: bold;
     cursor: pointer;
-    border: none;
+    
+    border: 1px solid #f33ace;
 }
 
 
